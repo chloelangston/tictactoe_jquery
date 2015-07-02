@@ -1,0 +1,38 @@
+#container {
+  width: 350px;
+  height: 350px;
+  margin: auto;
+  margin-top: 8%;
+  border: 18px solid white;
+  padding: 30px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  display: block;
+  border: 8px solid white;
+  float: left;
+  /*vertical-align: top;*/
+}
+
+body {
+  background-color: #aaffc5;
+  color: #86dfdf;
+  text-align: center;
+  font-size: 30px;
+  font-family:monospace;
+}
+
+.whoWins {
+  font-family: 'Damion', cursive;
+  position: absolute;
+  margin-left: 39%;
+  margin-top: 15%;
+  font-size: 100px;
+  font-weight: 700;
+}
+
+#box1, #box3, #box5, #box7, #box9 {
+  border: 8px solid #86dfdf;
+}
